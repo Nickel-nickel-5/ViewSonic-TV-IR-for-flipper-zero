@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Bright_up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: Bright_down
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2C 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1D 00 00 00
